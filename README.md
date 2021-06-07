@@ -14,7 +14,7 @@ Python packages can be found [https://www.python.org/downloads/](https://www.pyt
 
 To run the program, first clone the repo onto your local machine. Navigate to where you would like to keep the program and run:
 
-    git clone /path/to/repository
+    git clone https://github.com/mcintoac2442/McIntosh-multivalue-dictionary-work-sample.git
 
 Next, navigate to the multivalue_dict directory of the cloned repo, and with python 3.x or later installed, run:
 
