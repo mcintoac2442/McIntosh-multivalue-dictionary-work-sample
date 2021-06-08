@@ -16,7 +16,7 @@ To run the program, first clone the repo onto your local machine. Navigate to wh
 
     git clone https://github.com/mcintoac2442/McIntosh-multivalue-dictionary-work-sample.git
 
-Next, navigate to the multivalue_dict directory of the cloned repo, and with python 3.x or later installed, run:
+Next, navigate to the multivalue_dict directory of the cloned repo. From this directory, with python 3.x or later installed, run:
 
     python3 runner.py
 

@@ -40,6 +40,7 @@ def EXIT():
     -------
         None
     '''
+    print("Have a nice day! Bye.\n")
     quit()
 
 # Created by Anthony McIntosh, 6/4/2021
@@ -97,6 +98,8 @@ def main():
                 # Scalable Method
                 if function_call == "EXIT": 
                     EXIT()
+                elif function_call == "QUIT":
+                    print("ERROR, did you mean EXIT? Please try again!\n")
                 else:
                     getattr(myDictionary, function_call, UNRECOGNIZED)(*function_arguments)
                     # If you had lots of possible local module functions that could be called, I would make the default return a helper function
